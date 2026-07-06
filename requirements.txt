@@ -1,0 +1,74 @@
+# ==========================================================
+# AI News Generator
+# Requirements
+# ==========================================================
+
+# ------------------------
+# Streamlit UI
+# ------------------------
+streamlit>=1.46.0
+
+# ------------------------
+# Environment Variables
+# ------------------------
+python-dotenv>=1.1.1
+
+# ------------------------
+# Web Search & Extraction
+# ------------------------
+ddgs>=9.5.4
+
+# ------------------------
+# LLM
+# ------------------------
+langchain>=0.3.27
+langchain-core>=0.3.74
+langchain-groq>=0.3.7
+groq>=0.31.0
+
+# ------------------------
+# Image Generation
+# ------------------------
+diffusers>=0.35.1
+transformers>=4.55.0
+accelerate>=1.10.0
+safetensors>=0.6.2
+
+# ------------------------
+# PyTorch
+# Install the correct CUDA version separately:
+# https://pytorch.org/get-started/locally/
+# ------------------------
+torch
+torchvision
+torchaudio
+
+# ------------------------
+# Image Processing
+# ------------------------
+Pillow>=11.3.0
+
+# ------------------------
+# HTTP Requests
+# ------------------------
+requests>=2.32.5
+
+# ------------------------
+# Progress Bars
+# ------------------------
+tqdm>=4.67.1
+
+# ------------------------
+# Numerical Operations
+# ------------------------
+numpy>=2.3.2
+
+# ------------------------
+# Data Handling
+# ------------------------
+pandas>=2.3.2
+
+# ------------------------
+# Hugging Face Hub
+# ------------------------
+huggingface-hub>=0.34.4
